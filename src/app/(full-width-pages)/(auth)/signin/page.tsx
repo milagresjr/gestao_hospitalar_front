@@ -16,16 +16,17 @@ export default function SignIn() {
       <div className="relative items-center justify-center flex-1 hidden p-8 z-1 bg-brand-950 dark:bg-white/5 lg:flex">
         {/* <!-- ===== Common Grid Shape Start ===== --> */}
         <GridShape />
-        <div className="flex flex-col items-center max-w-xs">
+        <div className="hidden flex-col items-center max-w-xs">
           <Link href="/" className="block mb-4">
             <Image
               width={231}
               height={48}
               src="./images/logo/auth-logo.svg"
               alt="Logo"
+              className="hidden"
             />
           </Link>
-          <p className="text-center text-gray-400 dark:text-white/60">
+          <p className="text-center text-gray-400 dark:text-white/60 hidden">
             Free and Open-Source Tailwind CSS Admin Dashboard Template
           </p>
         </div>

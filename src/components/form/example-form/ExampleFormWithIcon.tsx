@@ -11,7 +11,7 @@ import {
 } from "../../../icons";
 import Checkbox from "../input/Checkbox";
 import Label from "../Label";
-import Button from "../../ui/button/Button";
+import Button from "../../ui_old/button/Button";
 
 export default function ExampleFormWithIcon() {
   const handleSubmit = (e: React.FormEvent) => {

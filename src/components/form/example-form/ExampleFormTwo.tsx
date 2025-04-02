@@ -7,7 +7,7 @@ import Select from "../Select";
 import Radio from "../input/Radio";
 import Form from "../Form";
 import { CalenderIcon } from "../../../icons";
-import Button from "../../ui/button/Button";
+import Button from "../../ui_old/button/Button";
 import Flatpickr from "react-flatpickr";
 import "flatpickr/dist/themes/light.css";
 

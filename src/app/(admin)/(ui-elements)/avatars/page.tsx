@@ -1,6 +1,6 @@
 import ComponentCard from "@/components/common/ComponentCard";
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
-import Avatar from "@/components/ui/avatar/Avatar";
+import Avatar from "@/components/ui_old/avatar/Avatar";
 import { Metadata } from "next";
 import React from "react";
 

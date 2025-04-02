@@ -4,9 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.swal2-container {
+  z-index: 99999 !important; /* Padrão é 1060 */
+}
+
+/* Aumenta z-index do backdrop (fundo escuro) */
+/* .swal2-backdrop { */
+  /* z-index: 999998!important; Padrão é 1040 */
+/* }  */
+
+/* .swal2-popup {
+  z-index: 999999!important; /* Padrão é 1040 */
+/* }  */
+
 @layer base {
   body {
     @apply relative text-base font-normal z-1 bg-gray-50 font-outfit;
+  }
+  :root {
+    --radius: 0.5rem;
   }
 }
 

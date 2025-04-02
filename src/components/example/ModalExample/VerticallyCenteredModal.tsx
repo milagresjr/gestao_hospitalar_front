@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import ComponentCard from "../../common/ComponentCard";
-import Button from "../../ui/button/Button";
-import { Modal } from "../../ui/modal";
+import Button from "../../ui_old/button/Button";
+import { Modal } from "../../ui_old/modal";
 import { useModal } from "@/hooks/useModal";
 
 export default function VerticallyCenteredModal() {

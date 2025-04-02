@@ -2,7 +2,7 @@
 import React from "react";
 import ComponentCard from "../../common/ComponentCard";
 
-import { Modal } from "../../ui/modal";
+import { Modal } from "../../ui_old/modal";
 import { useModal } from "@/hooks/useModal";
 
 export default function ModalBasedAlerts() {
