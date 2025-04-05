@@ -19,7 +19,6 @@ export const fetchInternamentos = async (params: {
             per_page: params.per_page,
         },
     })
-    console.log('resposta API', response.data)
     return response.data
 }
 
